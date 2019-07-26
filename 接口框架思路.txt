@@ -1,0 +1,8 @@
+#发送请求 、解析响应、添加断言
+
+1、必填参数：URL、get/post、入参、格式
+2、client 对象（必填参数）
+3、client.set_headers（{}）设置请求头信息
+4、client.send()发送请求
+5、clinet.check_equal()添加检查点
+6、clinet.check_status_code()添加 检查状态码
